@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "pc_rp_K_q02",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "fill",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "K",
+    "grade_rank": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 0,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "unit_pattern": [
+      "filled circle",
+      "empty circle"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: filled circle, empty circle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It repeats every 2 shapes. Next is the filled circle.",
+      "So the answer is E."
+    ],
+    "question_number": 2,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "pc_rp_K_q02_v1",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "fill",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "K",
+    "grade_rank": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 0,
+    "variation_of": "pc_rp_K_q02",
+    "variation_index": 1,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "unit_pattern": [
+      "filled square",
+      "empty square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: filled square, empty square.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "It repeats every 2 shapes. Next is the filled square.",
+      "So the answer is A."
+    ],
+    "question_number": 2,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "pc_rp_K_q02_v2",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "fill",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "K",
+    "grade_rank": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 0,
+    "variation_of": "pc_rp_K_q02",
+    "variation_index": 2,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "unit_pattern": [
+      "filled triangle",
+      "empty triangle"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: filled triangle, empty triangle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It repeats every 2 shapes. Next is the filled triangle.",
+      "So the answer is C."
+    ],
+    "question_number": 2,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "pc_rp_K_q02_v3",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "fill",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "K",
+    "grade_rank": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 0,
+    "variation_of": "pc_rp_K_q02",
+    "variation_index": 3,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "unit_pattern": [
+      "filled diamond",
+      "empty diamond"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: filled diamond, empty diamond.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It repeats every 2 shapes. Next is the filled diamond.",
+      "So the answer is E."
+    ],
+    "question_number": 2,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "pc_rp_K_q02_v4",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "fill",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "K",
+    "grade_rank": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 0,
+    "variation_of": "pc_rp_K_q02",
+    "variation_index": 4,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "unit_pattern": [
+      "filled star",
+      "empty star"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: filled star, empty star.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "It repeats every 2 shapes. Next is the filled star.",
+      "So the answer is A."
+    ],
+    "question_number": 2,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "pc_rp_K_q02_v5",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "fill",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "K",
+    "grade_rank": 0,
+    "minimum_grade": 0,
+    "maximum_grade": 0,
+    "variation_of": "pc_rp_K_q02",
+    "variation_index": 5,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "unit_pattern": [
+      "filled hexagon",
+      "empty hexagon"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: filled hexagon, empty hexagon.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It repeats every 2 shapes. Next is the filled hexagon.",
+      "So the answer is E."
+    ],
+    "question_number": 2,
+    "palette_offset": 5
+  }
+]

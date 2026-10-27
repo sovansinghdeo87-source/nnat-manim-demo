@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "pc_ov_3_q01",
+    "category": "pattern_completion",
+    "skill": "overlapping_shapes",
+    "subskill_attribute": "circle_square",
+    "difficulty": 3,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "The circle and square take turns being in front.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It's the other one's turn to be in front.",
+      "So the answer is D."
+    ],
+    "question_number": 1,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "pc_ov_3_q01_v1",
+    "category": "pattern_completion",
+    "skill": "overlapping_shapes",
+    "subskill_attribute": "circle_square",
+    "difficulty": 3,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ov_3_q01",
+    "variation_index": 1,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "The circle and square take turns being in front.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It's the other one's turn to be in front.",
+      "So the answer is E."
+    ],
+    "question_number": 1,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "pc_ov_3_q01_v2",
+    "category": "pattern_completion",
+    "skill": "overlapping_shapes",
+    "subskill_attribute": "circle_square",
+    "difficulty": 3,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ov_3_q01",
+    "variation_index": 2,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "B",
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "The circle and square take turns being in front.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is B.",
+      "It's the other one's turn to be in front.",
+      "So the answer is B."
+    ],
+    "question_number": 1,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "pc_ov_3_q01_v3",
+    "category": "pattern_completion",
+    "skill": "overlapping_shapes",
+    "subskill_attribute": "circle_square",
+    "difficulty": 3,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ov_3_q01",
+    "variation_index": 3,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "The circle and square take turns being in front.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It's the other one's turn to be in front.",
+      "So the answer is D."
+    ],
+    "question_number": 1,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "pc_ov_3_q01_v4",
+    "category": "pattern_completion",
+    "skill": "overlapping_shapes",
+    "subskill_attribute": "circle_square",
+    "difficulty": 3,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ov_3_q01",
+    "variation_index": 4,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "The circle and square take turns being in front.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It's the other one's turn to be in front.",
+      "So the answer is D."
+    ],
+    "question_number": 1,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "pc_ov_3_q01_v5",
+    "category": "pattern_completion",
+    "skill": "overlapping_shapes",
+    "subskill_attribute": "circle_square",
+    "difficulty": 3,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ov_3_q01",
+    "variation_index": 5,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "shapes": [
+      "circle",
+      "square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "The circle and square take turns being in front.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It's the other one's turn to be in front.",
+      "So the answer is C."
+    ],
+    "question_number": 1,
+    "palette_offset": 5
+  }
+]

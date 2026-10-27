@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "sr_33_3_q02",
+    "category": "serial_reasoning",
+    "skill": "three_by_three_matrices",
+    "subskill_attribute": "color_shape",
+    "difficulty": 4,
+    "blank_index": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the matrix?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "dims": [
+      "color",
+      "shape"
+    ],
+    "explanation_script": [
+      "Which figure completes the matrix?",
+      "Each row follows a color rule, each column a shape rule.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It must match both the row rule and the column rule.",
+      "So the answer is C."
+    ],
+    "question_number": 2,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "sr_33_3_q02_v1",
+    "category": "serial_reasoning",
+    "skill": "three_by_three_matrices",
+    "subskill_attribute": "color_shape",
+    "difficulty": 4,
+    "blank_index": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sr_33_3_q02",
+    "variation_index": 1,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the matrix?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "dims": [
+      "color",
+      "shape"
+    ],
+    "explanation_script": [
+      "Which figure completes the matrix?",
+      "Each row follows a color rule, each column a shape rule.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It must match both the row rule and the column rule.",
+      "So the answer is C."
+    ],
+    "question_number": 2,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "sr_33_3_q02_v2",
+    "category": "serial_reasoning",
+    "skill": "three_by_three_matrices",
+    "subskill_attribute": "color_shape",
+    "difficulty": 4,
+    "blank_index": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sr_33_3_q02",
+    "variation_index": 2,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the matrix?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "dims": [
+      "color",
+      "shape"
+    ],
+    "explanation_script": [
+      "Which figure completes the matrix?",
+      "Each row follows a color rule, each column a shape rule.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It must match both the row rule and the column rule.",
+      "So the answer is D."
+    ],
+    "question_number": 2,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "sr_33_3_q02_v3",
+    "category": "serial_reasoning",
+    "skill": "three_by_three_matrices",
+    "subskill_attribute": "color_shape",
+    "difficulty": 4,
+    "blank_index": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sr_33_3_q02",
+    "variation_index": 3,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the matrix?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "dims": [
+      "color",
+      "shape"
+    ],
+    "explanation_script": [
+      "Which figure completes the matrix?",
+      "Each row follows a color rule, each column a shape rule.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It must match both the row rule and the column rule.",
+      "So the answer is C."
+    ],
+    "question_number": 2,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "sr_33_3_q02_v4",
+    "category": "serial_reasoning",
+    "skill": "three_by_three_matrices",
+    "subskill_attribute": "color_shape",
+    "difficulty": 4,
+    "blank_index": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sr_33_3_q02",
+    "variation_index": 4,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the matrix?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "dims": [
+      "color",
+      "shape"
+    ],
+    "explanation_script": [
+      "Which figure completes the matrix?",
+      "Each row follows a color rule, each column a shape rule.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It must match both the row rule and the column rule.",
+      "So the answer is E."
+    ],
+    "question_number": 2,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "sr_33_3_q02_v5",
+    "category": "serial_reasoning",
+    "skill": "three_by_three_matrices",
+    "subskill_attribute": "color_shape",
+    "difficulty": 4,
+    "blank_index": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sr_33_3_q02",
+    "variation_index": 5,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the matrix?",
+    "format": "multiple_choice_5",
+    "correct_answer": "B",
+    "dims": [
+      "color",
+      "shape"
+    ],
+    "explanation_script": [
+      "Which figure completes the matrix?",
+      "Each row follows a color rule, each column a shape rule.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is B.",
+      "It must match both the row rule and the column rule.",
+      "So the answer is B."
+    ],
+    "question_number": 2,
+    "palette_offset": 5
+  }
+]

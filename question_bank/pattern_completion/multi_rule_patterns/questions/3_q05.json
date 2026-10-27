@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "pc_mr_3_q05",
+    "category": "pattern_completion",
+    "skill": "multi_rule_patterns",
+    "subskill_attribute": "fill_color",
+    "difficulty": 4,
+    "rule_a": {
+      "attribute": "fill",
+      "period": 2
+    },
+    "rule_b": {
+      "attribute": "color",
+      "period": 3
+    },
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "explanation_script": [
+      "Which figure comes next?",
+      "Two rules at once: fill and color each repeat on their own cycle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Both rules must line up together.",
+      "So the answer is D."
+    ],
+    "question_number": 5,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "pc_mr_3_q05_v1",
+    "category": "pattern_completion",
+    "skill": "multi_rule_patterns",
+    "subskill_attribute": "fill_color",
+    "difficulty": 4,
+    "rule_a": {
+      "attribute": "fill",
+      "period": 2
+    },
+    "rule_b": {
+      "attribute": "color",
+      "period": 3
+    },
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_mr_3_q05",
+    "variation_index": 1,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "explanation_script": [
+      "Which figure comes next?",
+      "Two rules at once: fill and color each repeat on their own cycle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Both rules must line up together.",
+      "So the answer is D."
+    ],
+    "question_number": 5,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "pc_mr_3_q05_v2",
+    "category": "pattern_completion",
+    "skill": "multi_rule_patterns",
+    "subskill_attribute": "fill_color",
+    "difficulty": 4,
+    "rule_a": {
+      "attribute": "fill",
+      "period": 2
+    },
+    "rule_b": {
+      "attribute": "color",
+      "period": 3
+    },
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_mr_3_q05",
+    "variation_index": 2,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "Which figure comes next?",
+      "Two rules at once: fill and color each repeat on their own cycle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Both rules must line up together.",
+      "So the answer is A."
+    ],
+    "question_number": 5,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "pc_mr_3_q05_v3",
+    "category": "pattern_completion",
+    "skill": "multi_rule_patterns",
+    "subskill_attribute": "fill_color",
+    "difficulty": 4,
+    "rule_a": {
+      "attribute": "fill",
+      "period": 2
+    },
+    "rule_b": {
+      "attribute": "color",
+      "period": 3
+    },
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_mr_3_q05",
+    "variation_index": 3,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "Which figure comes next?",
+      "Two rules at once: fill and color each repeat on their own cycle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Both rules must line up together.",
+      "So the answer is A."
+    ],
+    "question_number": 5,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "pc_mr_3_q05_v4",
+    "category": "pattern_completion",
+    "skill": "multi_rule_patterns",
+    "subskill_attribute": "fill_color",
+    "difficulty": 4,
+    "rule_a": {
+      "attribute": "fill",
+      "period": 2
+    },
+    "rule_b": {
+      "attribute": "color",
+      "period": 3
+    },
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_mr_3_q05",
+    "variation_index": 4,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "explanation_script": [
+      "Which figure comes next?",
+      "Two rules at once: fill and color each repeat on their own cycle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "Both rules must line up together.",
+      "So the answer is C."
+    ],
+    "question_number": 5,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "pc_mr_3_q05_v5",
+    "category": "pattern_completion",
+    "skill": "multi_rule_patterns",
+    "subskill_attribute": "fill_color",
+    "difficulty": 4,
+    "rule_a": {
+      "attribute": "fill",
+      "period": 2
+    },
+    "rule_b": {
+      "attribute": "color",
+      "period": 3
+    },
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_mr_3_q05",
+    "variation_index": 5,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "explanation_script": [
+      "Which figure comes next?",
+      "Two rules at once: fill and color each repeat on their own cycle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Both rules must line up together.",
+      "So the answer is D."
+    ],
+    "question_number": 5,
+    "palette_offset": 5
+  }
+]

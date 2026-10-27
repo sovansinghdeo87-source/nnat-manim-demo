@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "pc_ap_3_q05",
+    "category": "pattern_completion",
+    "skill": "alternating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 3,
+    "period": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "unit_pattern": [
+      "red circle",
+      "orange square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It alternates: red circle, then orange square.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "It keeps swapping. Next is the red circle.",
+      "So the answer is A."
+    ],
+    "question_number": 5,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "pc_ap_3_q05_v1",
+    "category": "pattern_completion",
+    "skill": "alternating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 3,
+    "period": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ap_3_q05",
+    "variation_index": 1,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "unit_pattern": [
+      "orange square",
+      "purple triangle"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It alternates: orange square, then purple triangle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps swapping. Next is the orange square.",
+      "So the answer is C."
+    ],
+    "question_number": 5,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "pc_ap_3_q05_v2",
+    "category": "pattern_completion",
+    "skill": "alternating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 3,
+    "period": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ap_3_q05",
+    "variation_index": 2,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "unit_pattern": [
+      "purple triangle",
+      "teal diamond"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It alternates: purple triangle, then teal diamond.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It keeps swapping. Next is the purple triangle.",
+      "So the answer is D."
+    ],
+    "question_number": 5,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "pc_ap_3_q05_v3",
+    "category": "pattern_completion",
+    "skill": "alternating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 3,
+    "period": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ap_3_q05",
+    "variation_index": 3,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "unit_pattern": [
+      "teal diamond",
+      "pink star"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It alternates: teal diamond, then pink star.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps swapping. Next is the teal diamond.",
+      "So the answer is C."
+    ],
+    "question_number": 5,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "pc_ap_3_q05_v4",
+    "category": "pattern_completion",
+    "skill": "alternating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 3,
+    "period": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ap_3_q05",
+    "variation_index": 4,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "unit_pattern": [
+      "pink star",
+      "yellow hexagon"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It alternates: pink star, then yellow hexagon.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps swapping. Next is the pink star.",
+      "So the answer is C."
+    ],
+    "question_number": 5,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "pc_ap_3_q05_v5",
+    "category": "pattern_completion",
+    "skill": "alternating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 3,
+    "period": 2,
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "pc_ap_3_q05",
+    "variation_index": 5,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "unit_pattern": [
+      "yellow hexagon",
+      "red circle"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It alternates: yellow hexagon, then red circle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It keeps swapping. Next is the yellow hexagon.",
+      "So the answer is D."
+    ],
+    "question_number": 5,
+    "palette_offset": 5
+  }
+]

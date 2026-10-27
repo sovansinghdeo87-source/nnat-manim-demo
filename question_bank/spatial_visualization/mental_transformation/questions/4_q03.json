@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "sv_mxf_4_q03",
+    "category": "spatial_visualization",
+    "skill": "mental_transformation",
+    "subskill_attribute": "rotate_then_flip_h",
+    "difficulty": 5,
+    "start_angle": 0,
+    "steps": [
+      "rotate:135:None",
+      "flip:0.0:horizontal"
+    ],
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Spatial Visualization",
+    "question_text": "Apply both steps in order. Which choice is the result?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "Apply both steps in order. Which choice is the result?",
+      "Here is a shape. First turn it 135 degrees. Then mirror it across the horizontal line.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Order matters here -- the opposite order gives a different result.",
+      "So the answer is A."
+    ],
+    "question_number": 3,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "sv_mxf_4_q03_v1",
+    "category": "spatial_visualization",
+    "skill": "mental_transformation",
+    "subskill_attribute": "rotate_then_flip_h",
+    "difficulty": 5,
+    "start_angle": 29,
+    "steps": [
+      "rotate:135:None",
+      "flip:0.0:horizontal"
+    ],
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "sv_mxf_4_q03",
+    "variation_index": 1,
+    "title": "Spatial Visualization",
+    "question_text": "Apply both steps in order. Which choice is the result?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "Apply both steps in order. Which choice is the result?",
+      "Here is a shape. First turn it 135 degrees. Then mirror it across the horizontal line.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Order matters here -- the opposite order gives a different result.",
+      "So the answer is A."
+    ],
+    "question_number": 3,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "sv_mxf_4_q03_v2",
+    "category": "spatial_visualization",
+    "skill": "mental_transformation",
+    "subskill_attribute": "rotate_then_flip_h",
+    "difficulty": 5,
+    "start_angle": 58,
+    "steps": [
+      "rotate:135:None",
+      "flip:0.0:horizontal"
+    ],
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "sv_mxf_4_q03",
+    "variation_index": 2,
+    "title": "Spatial Visualization",
+    "question_text": "Apply both steps in order. Which choice is the result?",
+    "format": "multiple_choice_5",
+    "correct_answer": "B",
+    "explanation_script": [
+      "Apply both steps in order. Which choice is the result?",
+      "Here is a shape. First turn it 135 degrees. Then mirror it across the horizontal line.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is B.",
+      "Order matters here -- the opposite order gives a different result.",
+      "So the answer is B."
+    ],
+    "question_number": 3,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "sv_mxf_4_q03_v3",
+    "category": "spatial_visualization",
+    "skill": "mental_transformation",
+    "subskill_attribute": "rotate_then_flip_h",
+    "difficulty": 5,
+    "start_angle": 87,
+    "steps": [
+      "rotate:135:None",
+      "flip:0.0:horizontal"
+    ],
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "sv_mxf_4_q03",
+    "variation_index": 3,
+    "title": "Spatial Visualization",
+    "question_text": "Apply both steps in order. Which choice is the result?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "explanation_script": [
+      "Apply both steps in order. Which choice is the result?",
+      "Here is a shape. First turn it 135 degrees. Then mirror it across the horizontal line.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Order matters here -- the opposite order gives a different result.",
+      "So the answer is D."
+    ],
+    "question_number": 3,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "sv_mxf_4_q03_v4",
+    "category": "spatial_visualization",
+    "skill": "mental_transformation",
+    "subskill_attribute": "rotate_then_flip_h",
+    "difficulty": 5,
+    "start_angle": 116,
+    "steps": [
+      "rotate:135:None",
+      "flip:0.0:horizontal"
+    ],
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "sv_mxf_4_q03",
+    "variation_index": 4,
+    "title": "Spatial Visualization",
+    "question_text": "Apply both steps in order. Which choice is the result?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "Apply both steps in order. Which choice is the result?",
+      "Here is a shape. First turn it 135 degrees. Then mirror it across the horizontal line.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Order matters here -- the opposite order gives a different result.",
+      "So the answer is A."
+    ],
+    "question_number": 3,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "sv_mxf_4_q03_v5",
+    "category": "spatial_visualization",
+    "skill": "mental_transformation",
+    "subskill_attribute": "rotate_then_flip_h",
+    "difficulty": 5,
+    "start_angle": 145,
+    "steps": [
+      "rotate:135:None",
+      "flip:0.0:horizontal"
+    ],
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "sv_mxf_4_q03",
+    "variation_index": 5,
+    "title": "Spatial Visualization",
+    "question_text": "Apply both steps in order. Which choice is the result?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "Apply both steps in order. Which choice is the result?",
+      "Here is a shape. First turn it 135 degrees. Then mirror it across the horizontal line.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Order matters here -- the opposite order gives a different result.",
+      "So the answer is A."
+    ],
+    "question_number": 3,
+    "palette_offset": 5
+  }
+]

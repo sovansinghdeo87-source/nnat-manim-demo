@@ -1,0 +1,200 @@
+[
+  {
+    "question_id": "sr_shp_2_q03",
+    "category": "serial_reasoning",
+    "skill": "shape_progression",
+    "subskill_attribute": "shrink_1",
+    "difficulty": 3,
+    "blank_position": 0,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the row?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "sides_shown": [
+      5,
+      4,
+      3
+    ],
+    "explanation_script": [
+      "Which figure completes the row?",
+      "Each shape loses sides. The first box is missing.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps loses the same number of sides.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "sr_shp_2_q03_v1",
+    "category": "serial_reasoning",
+    "skill": "shape_progression",
+    "subskill_attribute": "shrink_1",
+    "difficulty": 3,
+    "blank_position": 0,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "sr_shp_2_q03",
+    "variation_index": 1,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the row?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "sides_shown": [
+      6,
+      5,
+      4
+    ],
+    "explanation_script": [
+      "Which figure completes the row?",
+      "Each shape loses sides. The first box is missing.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps loses the same number of sides.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "sr_shp_2_q03_v2",
+    "category": "serial_reasoning",
+    "skill": "shape_progression",
+    "subskill_attribute": "shrink_1",
+    "difficulty": 3,
+    "blank_position": 0,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "sr_shp_2_q03",
+    "variation_index": 2,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the row?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "sides_shown": [
+      7,
+      6,
+      5
+    ],
+    "explanation_script": [
+      "Which figure completes the row?",
+      "Each shape loses sides. The first box is missing.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It keeps loses the same number of sides.",
+      "So the answer is D."
+    ],
+    "question_number": 3,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "sr_shp_2_q03_v3",
+    "category": "serial_reasoning",
+    "skill": "shape_progression",
+    "subskill_attribute": "shrink_1",
+    "difficulty": 3,
+    "blank_position": 0,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "sr_shp_2_q03",
+    "variation_index": 3,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the row?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "sides_shown": [
+      8,
+      7,
+      6
+    ],
+    "explanation_script": [
+      "Which figure completes the row?",
+      "Each shape loses sides. The first box is missing.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps loses the same number of sides.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "sr_shp_2_q03_v4",
+    "category": "serial_reasoning",
+    "skill": "shape_progression",
+    "subskill_attribute": "shrink_1",
+    "difficulty": 3,
+    "blank_position": 0,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "sr_shp_2_q03",
+    "variation_index": 4,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the row?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "sides_shown": [
+      9,
+      8,
+      7
+    ],
+    "explanation_script": [
+      "Which figure completes the row?",
+      "Each shape loses sides. The first box is missing.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps loses the same number of sides.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "sr_shp_2_q03_v5",
+    "category": "serial_reasoning",
+    "skill": "shape_progression",
+    "subskill_attribute": "shrink_1",
+    "difficulty": 3,
+    "blank_position": 0,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "sr_shp_2_q03",
+    "variation_index": 5,
+    "title": "Serial Reasoning",
+    "question_text": "Which figure completes the row?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "sides_shown": [
+      10,
+      9,
+      8
+    ],
+    "explanation_script": [
+      "Which figure completes the row?",
+      "Each shape loses sides. The first box is missing.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "It keeps loses the same number of sides.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 5
+  }
+]

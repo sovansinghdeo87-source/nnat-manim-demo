@@ -1,0 +1,10 @@
+venv/
+manim/.env
+manim/media/
+manim/__pycache__/
+question_bank/**/media/
+question_bank/**/__pycache__/
+question_bank/**/images/
+*.pyc
+.DS_Store
+audit/

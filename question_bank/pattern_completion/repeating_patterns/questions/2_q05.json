@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "pc_rp_2_q05",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "B",
+    "unit_pattern": [
+      "red circle",
+      "orange square"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: red circle, orange square.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is B.",
+      "It repeats every 2 shapes. Next is the red circle.",
+      "So the answer is B."
+    ],
+    "question_number": 5,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "pc_rp_2_q05_v1",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "pc_rp_2_q05",
+    "variation_index": 1,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "unit_pattern": [
+      "orange square",
+      "purple triangle"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: orange square, purple triangle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "It repeats every 2 shapes. Next is the orange square.",
+      "So the answer is D."
+    ],
+    "question_number": 5,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "pc_rp_2_q05_v2",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "pc_rp_2_q05",
+    "variation_index": 2,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "B",
+    "unit_pattern": [
+      "purple triangle",
+      "teal diamond"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: purple triangle, teal diamond.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is B.",
+      "It repeats every 2 shapes. Next is the purple triangle.",
+      "So the answer is B."
+    ],
+    "question_number": 5,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "pc_rp_2_q05_v3",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "pc_rp_2_q05",
+    "variation_index": 3,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "unit_pattern": [
+      "teal diamond",
+      "pink star"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: teal diamond, pink star.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It repeats every 2 shapes. Next is the teal diamond.",
+      "So the answer is E."
+    ],
+    "question_number": 5,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "pc_rp_2_q05_v4",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "pc_rp_2_q05",
+    "variation_index": 4,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "unit_pattern": [
+      "pink star",
+      "yellow hexagon"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: pink star, yellow hexagon.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "It repeats every 2 shapes. Next is the pink star.",
+      "So the answer is A."
+    ],
+    "question_number": 5,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "pc_rp_2_q05_v5",
+    "category": "pattern_completion",
+    "skill": "repeating_patterns",
+    "subskill_attribute": "combo",
+    "difficulty": 1,
+    "period": 2,
+    "grade_label": "2",
+    "grade_rank": 2,
+    "minimum_grade": 2,
+    "maximum_grade": 2,
+    "variation_of": "pc_rp_2_q05",
+    "variation_index": 5,
+    "title": "Pattern Completion",
+    "question_text": "Which figure comes next?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "unit_pattern": [
+      "yellow hexagon",
+      "red circle"
+    ],
+    "explanation_script": [
+      "Which figure comes next?",
+      "It repeats: yellow hexagon, red circle.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "It repeats every 2 shapes. Next is the yellow hexagon.",
+      "So the answer is E."
+    ],
+    "question_number": 5,
+    "palette_offset": 5
+  }
+]

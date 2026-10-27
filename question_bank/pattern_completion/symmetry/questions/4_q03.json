@@ -1,0 +1,290 @@
+[
+  {
+    "question_id": "pc_sym_4_q03",
+    "category": "pattern_completion",
+    "skill": "symmetry",
+    "subskill_attribute": "motif_c",
+    "difficulty": 5,
+    "marks_count": 3,
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Symmetry",
+    "question_text": "Which picture correctly completes the mirror image?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "left_marks": [
+      [
+        "triangle",
+        "#7C3AED",
+        -0.32,
+        -0.05
+      ],
+      [
+        "diamond",
+        "#0D9488",
+        -0.12,
+        0.32
+      ],
+      [
+        "star",
+        "#EC4899",
+        -0.28,
+        0.06
+      ]
+    ],
+    "explanation_script": [
+      "Here is half of a picture, split by a dashed mirror line.",
+      "Find the correctly mirrored half.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "Everything flips across the line -- same distance, same shape.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "pc_sym_4_q03_v1",
+    "category": "pattern_completion",
+    "skill": "symmetry",
+    "subskill_attribute": "motif_c",
+    "difficulty": 5,
+    "marks_count": 3,
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "pc_sym_4_q03",
+    "variation_index": 1,
+    "title": "Symmetry",
+    "question_text": "Which picture correctly completes the mirror image?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "left_marks": [
+      [
+        "diamond",
+        "#0D9488",
+        -0.32,
+        -0.05
+      ],
+      [
+        "star",
+        "#EC4899",
+        -0.12,
+        0.32
+      ],
+      [
+        "circle",
+        "#E4572E",
+        -0.28,
+        0.06
+      ]
+    ],
+    "explanation_script": [
+      "Here is half of a picture, split by a dashed mirror line.",
+      "Find the correctly mirrored half.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "Everything flips across the line -- same distance, same shape.",
+      "So the answer is E."
+    ],
+    "question_number": 3,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "pc_sym_4_q03_v2",
+    "category": "pattern_completion",
+    "skill": "symmetry",
+    "subskill_attribute": "motif_c",
+    "difficulty": 5,
+    "marks_count": 3,
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "pc_sym_4_q03",
+    "variation_index": 2,
+    "title": "Symmetry",
+    "question_text": "Which picture correctly completes the mirror image?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "left_marks": [
+      [
+        "star",
+        "#EC4899",
+        -0.32,
+        -0.05
+      ],
+      [
+        "circle",
+        "#E4572E",
+        -0.12,
+        0.32
+      ],
+      [
+        "square",
+        "#F59E0B",
+        -0.28,
+        0.06
+      ]
+    ],
+    "explanation_script": [
+      "Here is half of a picture, split by a dashed mirror line.",
+      "Find the correctly mirrored half.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "Everything flips across the line -- same distance, same shape.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "pc_sym_4_q03_v3",
+    "category": "pattern_completion",
+    "skill": "symmetry",
+    "subskill_attribute": "motif_c",
+    "difficulty": 5,
+    "marks_count": 3,
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "pc_sym_4_q03",
+    "variation_index": 3,
+    "title": "Symmetry",
+    "question_text": "Which picture correctly completes the mirror image?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "left_marks": [
+      [
+        "circle",
+        "#E4572E",
+        -0.32,
+        -0.05
+      ],
+      [
+        "square",
+        "#F59E0B",
+        -0.12,
+        0.32
+      ],
+      [
+        "triangle",
+        "#7C3AED",
+        -0.28,
+        0.06
+      ]
+    ],
+    "explanation_script": [
+      "Here is half of a picture, split by a dashed mirror line.",
+      "Find the correctly mirrored half.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Everything flips across the line -- same distance, same shape.",
+      "So the answer is D."
+    ],
+    "question_number": 3,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "pc_sym_4_q03_v4",
+    "category": "pattern_completion",
+    "skill": "symmetry",
+    "subskill_attribute": "motif_c",
+    "difficulty": 5,
+    "marks_count": 3,
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "pc_sym_4_q03",
+    "variation_index": 4,
+    "title": "Symmetry",
+    "question_text": "Which picture correctly completes the mirror image?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "left_marks": [
+      [
+        "square",
+        "#F59E0B",
+        -0.32,
+        -0.05
+      ],
+      [
+        "triangle",
+        "#7C3AED",
+        -0.12,
+        0.32
+      ],
+      [
+        "diamond",
+        "#0D9488",
+        -0.28,
+        0.06
+      ]
+    ],
+    "explanation_script": [
+      "Here is half of a picture, split by a dashed mirror line.",
+      "Find the correctly mirrored half.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Everything flips across the line -- same distance, same shape.",
+      "So the answer is D."
+    ],
+    "question_number": 3,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "pc_sym_4_q03_v5",
+    "category": "pattern_completion",
+    "skill": "symmetry",
+    "subskill_attribute": "motif_c",
+    "difficulty": 5,
+    "marks_count": 3,
+    "grade_label": "4",
+    "grade_rank": 4,
+    "minimum_grade": 4,
+    "maximum_grade": 4,
+    "variation_of": "pc_sym_4_q03",
+    "variation_index": 5,
+    "title": "Symmetry",
+    "question_text": "Which picture correctly completes the mirror image?",
+    "format": "multiple_choice_5",
+    "correct_answer": "C",
+    "left_marks": [
+      [
+        "triangle",
+        "#7C3AED",
+        -0.32,
+        -0.05
+      ],
+      [
+        "diamond",
+        "#0D9488",
+        -0.12,
+        0.32
+      ],
+      [
+        "star",
+        "#EC4899",
+        -0.28,
+        0.06
+      ]
+    ],
+    "explanation_script": [
+      "Here is half of a picture, split by a dashed mirror line.",
+      "Find the correctly mirrored half.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is C.",
+      "Everything flips across the line -- same distance, same shape.",
+      "So the answer is C."
+    ],
+    "question_number": 3,
+    "palette_offset": 5
+  }
+]

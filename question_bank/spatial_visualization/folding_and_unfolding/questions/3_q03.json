@@ -1,0 +1,326 @@
+[
+  {
+    "question_id": "sv_fold_3_q03",
+    "category": "spatial_visualization",
+    "skill": "folding_and_unfolding",
+    "subskill_attribute": "fold_both",
+    "difficulty": 4,
+    "grid_size": 4,
+    "fold_axes": [
+      "vertical",
+      "horizontal"
+    ],
+    "punch_cell": [
+      0,
+      1
+    ],
+    "correct_holes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": null,
+    "variation_index": 0,
+    "title": "Spatial Visualization",
+    "question_text": "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+    "format": "multiple_choice_5",
+    "correct_answer": "B",
+    "explanation_script": [
+      "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+      "It's folded left-right and top-bottom, and a hole is punched.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is B.",
+      "Every fold doubles the holes, mirrored across that line.",
+      "So the answer is B."
+    ],
+    "question_number": 3,
+    "palette_offset": 0
+  },
+  {
+    "question_id": "sv_fold_3_q03_v1",
+    "category": "spatial_visualization",
+    "skill": "folding_and_unfolding",
+    "subskill_attribute": "fold_both",
+    "difficulty": 4,
+    "grid_size": 4,
+    "fold_axes": [
+      "vertical",
+      "horizontal"
+    ],
+    "punch_cell": [
+      1,
+      0
+    ],
+    "correct_holes": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sv_fold_3_q03",
+    "variation_index": 1,
+    "title": "Spatial Visualization",
+    "question_text": "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "explanation_script": [
+      "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+      "It's folded left-right and top-bottom, and a hole is punched.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Every fold doubles the holes, mirrored across that line.",
+      "So the answer is D."
+    ],
+    "question_number": 3,
+    "palette_offset": 1
+  },
+  {
+    "question_id": "sv_fold_3_q03_v2",
+    "category": "spatial_visualization",
+    "skill": "folding_and_unfolding",
+    "subskill_attribute": "fold_both",
+    "difficulty": 4,
+    "grid_size": 4,
+    "fold_axes": [
+      "vertical",
+      "horizontal"
+    ],
+    "punch_cell": [
+      0,
+      0
+    ],
+    "correct_holes": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sv_fold_3_q03",
+    "variation_index": 2,
+    "title": "Spatial Visualization",
+    "question_text": "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+    "format": "multiple_choice_5",
+    "correct_answer": "E",
+    "explanation_script": [
+      "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+      "It's folded left-right and top-bottom, and a hole is punched.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is E.",
+      "Every fold doubles the holes, mirrored across that line.",
+      "So the answer is E."
+    ],
+    "question_number": 3,
+    "palette_offset": 2
+  },
+  {
+    "question_id": "sv_fold_3_q03_v3",
+    "category": "spatial_visualization",
+    "skill": "folding_and_unfolding",
+    "subskill_attribute": "fold_both",
+    "difficulty": 4,
+    "grid_size": 4,
+    "fold_axes": [
+      "vertical",
+      "horizontal"
+    ],
+    "punch_cell": [
+      1,
+      1
+    ],
+    "correct_holes": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sv_fold_3_q03",
+    "variation_index": 3,
+    "title": "Spatial Visualization",
+    "question_text": "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+      "It's folded left-right and top-bottom, and a hole is punched.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Every fold doubles the holes, mirrored across that line.",
+      "So the answer is A."
+    ],
+    "question_number": 3,
+    "palette_offset": 3
+  },
+  {
+    "question_id": "sv_fold_3_q03_v4",
+    "category": "spatial_visualization",
+    "skill": "folding_and_unfolding",
+    "subskill_attribute": "fold_both",
+    "difficulty": 4,
+    "grid_size": 4,
+    "fold_axes": [
+      "vertical",
+      "horizontal"
+    ],
+    "punch_cell": [
+      0,
+      1
+    ],
+    "correct_holes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sv_fold_3_q03",
+    "variation_index": 4,
+    "title": "Spatial Visualization",
+    "question_text": "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+    "format": "multiple_choice_5",
+    "correct_answer": "D",
+    "explanation_script": [
+      "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+      "It's folded left-right and top-bottom, and a hole is punched.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is D.",
+      "Every fold doubles the holes, mirrored across that line.",
+      "So the answer is D."
+    ],
+    "question_number": 3,
+    "palette_offset": 4
+  },
+  {
+    "question_id": "sv_fold_3_q03_v5",
+    "category": "spatial_visualization",
+    "skill": "folding_and_unfolding",
+    "subskill_attribute": "fold_both",
+    "difficulty": 4,
+    "grid_size": 4,
+    "fold_axes": [
+      "vertical",
+      "horizontal"
+    ],
+    "punch_cell": [
+      1,
+      0
+    ],
+    "correct_holes": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "grade_label": "3",
+    "grade_rank": 3,
+    "minimum_grade": 3,
+    "maximum_grade": 3,
+    "variation_of": "sv_fold_3_q03",
+    "variation_index": 5,
+    "title": "Spatial Visualization",
+    "question_text": "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+    "format": "multiple_choice_5",
+    "correct_answer": "A",
+    "explanation_script": [
+      "The paper is folded (dashed line) and a hole is punched (dot). Unfolded, which pattern of holes results?",
+      "It's folded left-right and top-bottom, and a hole is punched.",
+      "Here are the five answer choices, A through E.",
+      "The correct answer is A.",
+      "Every fold doubles the holes, mirrored across that line.",
+      "So the answer is A."
+    ],
+    "question_number": 3,
+    "palette_offset": 5
+  }
+]
