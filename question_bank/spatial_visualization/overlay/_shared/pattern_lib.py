@@ -243,7 +243,7 @@ def _spread_group_vertically(group, margin: float = 0.6, min_gap: float = 0.5,
 def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     scene.camera.background_color = BG
     title = make_title()
-    question = make_question().next_to(title, DOWN, buff=0.35)
+    question = make_question().next_to(title, DOWN, buff=0.55)
 
     pieces = pieces_for(spec)
     picture = build_combo_marker(pieces, scale=1.3)
@@ -254,7 +254,7 @@ def render_question_image(scene: Scene, spec: PatternSpec) -> None:
 
     choices, _ = choice_singles_for(spec, pieces)
     choice_group = build_choice_row(choices)
-    choice_group.next_to(picture, DOWN, buff=0.9)
+    choice_group.next_to(picture, DOWN, buff=2.6)
 
     _group = VGroup(title, question, picture, choice_group)
     _spread_group_vertically(_group)
@@ -271,7 +271,7 @@ class OverlayVideoScene(VoiceoverScene):
         self.set_speech_service(AzureService(voice=AZURE_VOICE))
 
         title = make_title()
-        question = make_question().next_to(title, DOWN, buff=0.35)
+        question = make_question().next_to(title, DOWN, buff=0.55)
 
         with self.voiceover(text=narration_lines(spec, "")["intro"]) as tracker:
             self.play(Write(title), run_time=0.8)
@@ -283,7 +283,7 @@ class OverlayVideoScene(VoiceoverScene):
         _max_w = min(12, config.frame_width - 1.0)
         if picture.width > _max_w:
             picture.scale(_max_w / picture.width)
-        picture.move_to(ORIGIN).shift(UP * 0.8)
+        picture.next_to(question, DOWN, buff=2.0)
 
         lines = narration_lines(spec, "")
         with self.voiceover(text=lines["picture"]) as tracker:
@@ -293,7 +293,7 @@ class OverlayVideoScene(VoiceoverScene):
         choices, correct_letter = choice_singles_for(spec, pieces)
         lines = narration_lines(spec, correct_letter)
         choice_group = build_choice_row(choices)
-        choice_group.next_to(picture, DOWN, buff=0.9)
+        choice_group.next_to(picture, DOWN, buff=2.6)
 
         with self.voiceover(text=lines["choices"]) as tracker:
             self.play(FadeIn(choice_group, shift=UP * 0.3), run_time=0.9)
@@ -312,7 +312,7 @@ class OverlayVideoScene(VoiceoverScene):
             self.wait(tracker.get_remaining_duration())
 
         answer_text = Text(f"Answer: {correct_letter}", font_size=ANSWER_SIZE, color=CORRECT, weight=BOLD)
-        answer_text.next_to(picture, DOWN, buff=0.7)
+        answer_text.next_to(picture, DOWN, buff=2.6)
         with self.voiceover(text=lines["final"]) as tracker:
             self.play(FadeIn(answer_text, scale=0.8), run_time=0.7)
             self.wait(tracker.get_remaining_duration())

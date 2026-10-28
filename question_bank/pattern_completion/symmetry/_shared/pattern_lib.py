@@ -237,7 +237,7 @@ def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     half_h = 0.5 * 2.5
     qmark = _qmark_half(half_w, half_h, scale=2.5)
     big_frame.add(qmark)
-    big_frame.next_to(question, DOWN, buff=0.4)
+    big_frame.next_to(question, DOWN, buff=2.0)
 
     kinds, _ = choice_variants_for(spec)
     choice_frames = VGroup()
@@ -251,7 +251,7 @@ def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     _max_w = min(12, config.frame_width - 1.0)
     if choice_frames.width > _max_w:
         choice_frames.scale(_max_w / choice_frames.width)
-    choice_frames.next_to(big_frame, DOWN, buff=0.7)
+    choice_frames.next_to(big_frame, DOWN, buff=2.6)
 
     _group = VGroup(title, question, big_frame, choice_frames)
     _spread_group_vertically(_group)
@@ -268,7 +268,7 @@ class SymmetryVideoScene(VoiceoverScene):
         self.set_speech_service(AzureService(voice=AZURE_VOICE))
 
         title = make_title()
-        question = make_question().next_to(title, DOWN, buff=0.3)
+        question = make_question().next_to(title, DOWN, buff=0.5)
         _max_w = min(11, config.frame_width - 1.0)
         if question.width > _max_w:
             question.scale(_max_w / question.width)
@@ -285,7 +285,7 @@ class SymmetryVideoScene(VoiceoverScene):
         left_mobjs = VGroup(*[_build_mark(m, half_w, half_h, 2.5) for m in left_marks])
         qmark = _qmark_half(half_w, half_h, scale=2.5)
         big_frame = VGroup(frame_outline, divider, left_mobjs, qmark)
-        big_frame.next_to(question, DOWN, buff=0.4)
+        big_frame.next_to(question, DOWN, buff=2.0)
 
         lines = narration_lines(spec, "")
         with self.voiceover(text=lines["prompt"]) as tracker:
@@ -307,7 +307,7 @@ class SymmetryVideoScene(VoiceoverScene):
         _max_w = min(12, config.frame_width - 1.0)
         if choice_frames.width > _max_w:
             choice_frames.scale(_max_w / choice_frames.width)
-        choice_frames.next_to(big_frame, DOWN, buff=0.7)
+        choice_frames.next_to(big_frame, DOWN, buff=2.6)
 
         with self.voiceover(text=lines["choices"]) as tracker:
             self.play(FadeIn(choice_frames, shift=UP * 0.3), run_time=0.9)
@@ -327,7 +327,7 @@ class SymmetryVideoScene(VoiceoverScene):
         explain = Text(
             "mirrored across the line",
             font_size=EXPLAIN_SIZE, color=INK,
-        ).next_to(big_frame, DOWN, buff=0.4)
+        ).next_to(big_frame, DOWN, buff=2.6)
 
         with self.voiceover(text=lines["explain"]) as tracker:
             self.play(FadeOut(qmark, scale=0.6), FadeIn(resolved_marks, scale=0.6), run_time=0.6)
@@ -337,7 +337,7 @@ class SymmetryVideoScene(VoiceoverScene):
             self.wait(tracker.get_remaining_duration())
 
         answer_text = Text(f"Answer: {correct_letter}", font_size=ANSWER_SIZE, color=CORRECT, weight=BOLD)
-        answer_text.next_to(explain, DOWN, buff=0.5)
+        answer_text.next_to(explain, DOWN, buff=0.8)
         with self.voiceover(text=lines["final"]) as tracker:
             self.play(FadeIn(answer_text, scale=0.8), run_time=0.7)
             self.wait(tracker.get_remaining_duration())

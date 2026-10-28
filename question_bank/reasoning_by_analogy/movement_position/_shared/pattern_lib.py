@@ -216,7 +216,7 @@ def _spread_group_vertically(group, margin: float = 0.6, min_gap: float = 0.5,
 def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     scene.camera.background_color = BG
     title = make_title()
-    question = make_question().next_to(title, DOWN, buff=0.35)
+    question = make_question().next_to(title, DOWN, buff=0.55)
 
     positions = positions_for(spec)
     pair1 = build_pair(_build_frame_dot(positions["a"]), _build_frame_dot(positions["b"]))
@@ -247,7 +247,7 @@ class AnalogyMovementVideoScene(VoiceoverScene):
         self.set_speech_service(AzureService(voice=AZURE_VOICE))
 
         title = make_title()
-        question = make_question().next_to(title, DOWN, buff=0.35)
+        question = make_question().next_to(title, DOWN, buff=0.55)
 
         with self.voiceover(text=narration_lines(spec, "")["intro"]) as tracker:
             self.play(Write(title), run_time=0.8)
@@ -258,7 +258,7 @@ class AnalogyMovementVideoScene(VoiceoverScene):
         frame_a = _build_frame_dot(positions["a"])
         frame_b = _build_frame_dot(positions["b"])
         pair1 = build_pair(frame_a, frame_b)
-        pair1.move_to(ORIGIN).shift(UP * 1.2)
+        pair1.next_to(question, DOWN, buff=2.2)
 
         lines = narration_lines(spec, "")
         with self.voiceover(text=lines["first_pair"]) as tracker:
@@ -270,7 +270,7 @@ class AnalogyMovementVideoScene(VoiceoverScene):
         frame_c = _build_frame_dot(positions["c"])
         qmark = _qmark()
         pair2 = build_pair(frame_c, qmark)
-        pair2.move_to(ORIGIN).shift(DOWN * 0.6)
+        pair2.next_to(pair1, DOWN, buff=2.0)
 
         with self.voiceover(text=lines["second_pair"]) as tracker:
             self.play(FadeIn(pair2, shift=UP * 0.2), run_time=0.8)
@@ -283,7 +283,7 @@ class AnalogyMovementVideoScene(VoiceoverScene):
         if _choice_fit < 1.0:
             self.play(pair1.animate.scale(_choice_fit), pair2.animate.scale(_choice_fit), run_time=0.3)
             choices.scale(_choice_fit)
-        choices.next_to(VGroup(pair1, pair2), DOWN, buff=0.9)
+        choices.next_to(VGroup(pair1, pair2), DOWN, buff=2.8)
 
         with self.voiceover(text=lines["choices"]) as tracker:
             self.play(FadeIn(choices, shift=UP * 0.3), run_time=0.9)
@@ -305,7 +305,7 @@ class AnalogyMovementVideoScene(VoiceoverScene):
             self.wait(tracker.get_remaining_duration())
 
         answer_text = Text(f"Answer: {correct_letter}", font_size=ANSWER_SIZE, color=CORRECT, weight=BOLD)
-        answer_text.next_to(VGroup(pair1, pair2), DOWN, buff=0.6)
+        answer_text.next_to(VGroup(pair1, pair2), DOWN, buff=2.8)
         with self.voiceover(text=lines["final"]) as tracker:
             self.play(FadeIn(answer_text, scale=0.8), run_time=0.7)
             self.wait(tracker.get_remaining_duration())

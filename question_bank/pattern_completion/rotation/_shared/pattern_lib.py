@@ -236,7 +236,7 @@ def _spread_group_vertically(group, margin: float = 0.6, min_gap: float = 0.5,
 def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     scene.camera.background_color = BG
     title = make_title()
-    question = make_question().next_to(title, DOWN, buff=0.35)
+    question = make_question().next_to(title, DOWN, buff=0.55)
 
     row, arrows, _, shown, correct, item_scale = build_sequence_group(spec)
     sequence_group = VGroup(row, arrows)
@@ -260,13 +260,13 @@ class RotationVideoScene(VoiceoverScene):
         self.set_speech_service(AzureService(voice=AZURE_VOICE))
 
         title = make_title()
-        question = make_question().next_to(title, DOWN, buff=0.35)
+        question = make_question().next_to(title, DOWN, buff=0.55)
 
         row, arrows, mobjs, shown, correct, item_scale = build_sequence_group(spec)
         sequence_group = VGroup(row, arrows)
-        sequence_group.move_to(ORIGIN).shift(UP * 0.6)
+        sequence_group.next_to(question, DOWN, buff=2.4)
         choices, correct_letter = build_choice_group(spec, shown, correct)
-        choices.next_to(sequence_group, DOWN, buff=1.3)
+        choices.next_to(sequence_group, DOWN, buff=2.8)
         lines = narration_lines(spec, correct_letter)
 
         with self.voiceover(text=lines["intro"]) as tracker:
@@ -298,7 +298,7 @@ class RotationVideoScene(VoiceoverScene):
         explain = Text(
             f"turns {spec.increment} degrees each step",
             font_size=EXPLAIN_SIZE, color=INK,
-        ).next_to(sequence_group, DOWN, buff=0.9)
+        ).next_to(sequence_group, DOWN, buff=2.8)
 
         with self.voiceover(text=lines["explain"]) as tracker:
             self.play(FadeOut(mobjs[-1], scale=0.6), FadeIn(resolved, scale=0.6), run_time=0.6)
@@ -308,7 +308,7 @@ class RotationVideoScene(VoiceoverScene):
             self.wait(tracker.get_remaining_duration())
 
         answer_text = Text(f"Answer: {correct_letter}", font_size=ANSWER_SIZE, color=CORRECT, weight=BOLD)
-        answer_text.next_to(explain, DOWN, buff=0.6)
+        answer_text.next_to(explain, DOWN, buff=0.8)
         with self.voiceover(text=lines["final"]) as tracker:
             self.play(FadeIn(answer_text, scale=0.8), run_time=0.7)
             self.wait(tracker.get_remaining_duration())

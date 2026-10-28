@@ -287,7 +287,7 @@ def _spread_group_vertically(group, margin: float = 0.6, min_gap: float = 0.5,
 def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     scene.camera.background_color = BG
     title = make_title()
-    question = make_question().next_to(title, DOWN, buff=0.35)
+    question = make_question().next_to(title, DOWN, buff=0.55)
     _max_w = min(11.5, config.frame_width - 1.0)
     if question.width > _max_w:
         question.scale(_max_w / question.width)
@@ -298,7 +298,7 @@ def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     correct = correct_holes_for(spec)
     choices, _ = choice_hole_sets_for(spec, correct)
     choice_group = build_choice_row(spec, choices)
-    choice_group.next_to(diagram, DOWN, buff=0.7)
+    choice_group.next_to(diagram, DOWN, buff=2.6)
 
     _group = VGroup(title, question, diagram, choice_group)
     _spread_group_vertically(_group)
@@ -315,7 +315,7 @@ class FoldingAndUnfoldingVideoScene(VoiceoverScene):
         self.set_speech_service(AzureService(voice=AZURE_VOICE))
 
         title = make_title()
-        question = make_question().next_to(title, DOWN, buff=0.35)
+        question = make_question().next_to(title, DOWN, buff=0.55)
         _max_w = min(11.5, config.frame_width - 1.0)
         if question.width > _max_w:
             question.scale(_max_w / question.width)
@@ -326,7 +326,7 @@ class FoldingAndUnfoldingVideoScene(VoiceoverScene):
             self.wait(tracker.get_remaining_duration())
 
         diagram = build_fold_diagram(spec, scale=1.1)
-        diagram.move_to(ORIGIN).shift(UP * 0.7)
+        diagram.next_to(question, DOWN, buff=2.0)
 
         lines = narration_lines(spec, "")
         with self.voiceover(text=lines["fold"]) as tracker:
@@ -337,7 +337,7 @@ class FoldingAndUnfoldingVideoScene(VoiceoverScene):
         choices, correct_letter = choice_hole_sets_for(spec, correct)
         lines = narration_lines(spec, correct_letter)
         choice_group = build_choice_row(spec, choices)
-        choice_group.next_to(diagram, DOWN, buff=0.7)
+        choice_group.next_to(diagram, DOWN, buff=2.6)
 
         with self.voiceover(text=lines["choices"]) as tracker:
             self.play(FadeIn(choice_group, shift=UP * 0.3), run_time=0.9)
@@ -356,7 +356,7 @@ class FoldingAndUnfoldingVideoScene(VoiceoverScene):
             self.wait(tracker.get_remaining_duration())
 
         answer_text = Text(f"Answer: {correct_letter}", font_size=ANSWER_SIZE, color=CORRECT, weight=BOLD)
-        answer_text.next_to(diagram, DOWN, buff=0.6)
+        answer_text.next_to(diagram, DOWN, buff=2.6)
         with self.voiceover(text=lines["final"]) as tracker:
             self.play(FadeIn(answer_text, scale=0.8), run_time=0.7)
             self.wait(tracker.get_remaining_duration())
