@@ -219,6 +219,7 @@ def render_question_image(scene: Scene, spec: PatternSpec) -> None:
     _spread_group_vertically(_group)
     _group.move_to(ORIGIN)
     scene.add(_group)
+    scene.choice_regions = {letter: _group[-1][i] for i, letter in enumerate("ABCDE")}
 
 
 class RotationSequenceVideoScene(VoiceoverScene):

@@ -43,4 +43,4 @@ next-env.d.ts
 # generated content (regenerate with `npm run build:content`)
 /public/images/
 /public/videos/
-/src/content/pattern_completion.json
+/src/content/content.json

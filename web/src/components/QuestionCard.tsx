@@ -1,10 +1,34 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { Question } from "@/content/types";
+import type { ChoiceRegion, Question } from "@/content/types";
 import { AnswerButton, type AnswerStatus } from "./AnswerButton";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
+
+// Hit-areas are padded beyond the drawn shape's exact bounds so small
+// fingers have an easier time tapping the right one.
+const HIT_PADDING = 0.18;
+
+function paddedRegion(region: ChoiceRegion): ChoiceRegion {
+  const padW = region.w * HIT_PADDING;
+  const padH = region.h * HIT_PADDING;
+  const x = Math.max(0, region.x - padW / 2);
+  const y = Math.max(0, region.y - padH / 2);
+  return {
+    x,
+    y,
+    w: Math.min(region.w + padW, 1 - x),
+    h: Math.min(region.h + padH, 1 - y),
+  };
+}
+
+const OVERLAY_STATUS_CLASSES: Record<AnswerStatus, string> = {
+  idle: "tap-hint border-2 border-transparent hover:border-accent/40 hover:bg-accent-soft/40 active:border-accent active:bg-accent-soft/60 focus-visible:border-accent focus-visible:bg-accent-soft/40 focus-visible:outline-none",
+  correct: "border-2 border-correct bg-correct-soft/50 pc-pop",
+  wrong: "border-2 border-wrong bg-wrong-soft/50 pc-shake",
+  muted: "border-2 border-transparent",
+};
 
 export function QuestionCard({
   question,
@@ -51,6 +75,34 @@ export function QuestionCard({
               alt={question.questionText}
               className="max-h-full max-w-full object-contain"
             />
+
+            {LETTERS.map((letter) => {
+              const region = question.choiceRegions?.[letter];
+              if (!region) return null;
+              const box = paddedRegion(region);
+              let status: AnswerStatus = "idle";
+              if (revealed) {
+                if (letter === question.correctAnswer) status = "correct";
+                else if (letter === selected) status = "wrong";
+                else status = "muted";
+              }
+              return (
+                <button
+                  key={letter}
+                  type="button"
+                  aria-label={`Option ${letter}`}
+                  disabled={revealed}
+                  onClick={() => onAnswer(letter)}
+                  className={`absolute rounded-xl transition disabled:cursor-not-allowed enabled:cursor-pointer active:scale-95 ${OVERLAY_STATUS_CLASSES[status]}`}
+                  style={{
+                    left: `${box.x * 100}%`,
+                    top: `${box.y * 100}%`,
+                    width: `${box.w * 100}%`,
+                    height: `${box.h * 100}%`,
+                  }}
+                />
+              );
+            })}
           </div>
 
           {hasVideo && (

@@ -136,6 +136,20 @@ body {
   animation: card-in 0.35s ease-out;
 }
 
+@keyframes tap-hint {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(59, 130, 246, 0);
+  }
+}
+
+.tap-hint {
+  animation: tap-hint 1.2s ease-out 2;
+}
+
 .flip-perspective {
   position: relative;
   perspective: 1400px;

@@ -19,7 +19,7 @@ if os.environ.get("ASPECT_RATIO") == "9:16":
     config.frame_height = 14.222222222222221
     config.frame_width = 8.0
 from pattern_lib import PatternSpec, render_question_image
-from manim import Scene
+from manim import DOWN, LEFT, RIGHT, UP, Scene
 
 ROOT = Path(__file__).resolve().parent
 QUESTIONS_DIR = ROOT / "questions"
@@ -50,6 +50,43 @@ def _load_entry() -> dict:
     return json.loads(first_file.read_text())[0]
 
 
+def _write_choice_regions(entry: dict, regions: dict) -> None:
+    """Dumps each answer choice's bounding box as a fraction (0-1) of the
+    rendered frame, next to the question image, so the web UI can overlay
+    tappable hit-areas directly on top of the drawn shapes."""
+    half_w = config.frame_width / 2
+    half_h = config.frame_height / 2
+
+    def to_fraction(point):
+        x, y = point[0], point[1]
+        return (
+            (x + half_w) / config.frame_width,
+            (half_h - y) / config.frame_height,
+        )
+
+    out = {}
+    for letter, mobj in regions.items():
+        ul = mobj.get_corner(UP + LEFT)
+        dr = mobj.get_corner(DOWN + RIGHT)
+        x0, y0 = to_fraction(ul)
+        x1, y1 = to_fraction(dr)
+        out[letter] = {
+            "x": round(min(x0, x1), 4),
+            "y": round(min(y0, y1), 4),
+            "w": round(abs(x1 - x0), 4),
+            "h": round(abs(y1 - y0), 4),
+        }
+
+    images_dir = ROOT / "images"
+    images_dir.mkdir(parents=True, exist_ok=True)
+    out_path = images_dir / f"{entry['question_id']}.regions.json"
+    out_path.write_text(json.dumps(out))
+
+
 class QuestionImage(Scene):
     def construct(self):
-        render_question_image(self, _spec_for(_load_entry()))
+        entry = _load_entry()
+        render_question_image(self, _spec_for(entry))
+        regions = getattr(self, "choice_regions", None)
+        if regions:
+            _write_choice_regions(entry, regions)
